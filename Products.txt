@@ -1,0 +1,2 @@
+Apple	Iphone	100000	150
+Samsung	Phone	123213	324

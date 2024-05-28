@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Models">
+      <UniqueIdentifier>{36a887c0-f684-444a-9022-2cafacf22953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models\ClassMenu">
+      <UniqueIdentifier>{16fc798b-910c-45fa-ada9-af5441595f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models\ClassMenuItem">
+      <UniqueIdentifier>{8a0c35d6-a85d-4636-a66d-65d6335bd87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models\ClassWorker">
+      <UniqueIdentifier>{96e392a4-edc9-4317-912d-d079ee7efe9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models\ClassUser">
+      <UniqueIdentifier>{3328021f-abec-48ae-a72c-da85c3935295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models\ClassProvider">
+      <UniqueIdentifier>{5029cfc9-ca53-423a-bad8-876d31c32fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models\ClassProduct">
+      <UniqueIdentifier>{f1260bca-410d-4113-8395-19427e915ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Models\myVector">
+      <UniqueIdentifier>{ce8132de-a1a0-46f8-9e51-5cc22b7d479e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ClassMenu\CMenu.cpp">
+      <Filter>Исходные файлы\Models\ClassMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ClassMenuItem\CMenuItem.cpp">
+      <Filter>Исходные файлы\Models\ClassMenuItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ClassUser\User.cpp">
+      <Filter>Исходные файлы\Models\ClassUser</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ClassWorker\Worker.cpp">
+      <Filter>Исходные файлы\Models\ClassWorker</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ClassProvider\Provider.cpp">
+      <Filter>Исходные файлы\Models\ClassProvider</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ClassProduct\Product.cpp">
+      <Filter>Исходные файлы\Models\ClassProduct</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ClassVector\myVector.cpp">
+      <Filter>Исходные файлы\Models\myVector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\ClassMenu\CMenu.h">
+      <Filter>Исходные файлы\Models\ClassMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ClassMenuItem\CMenuItem.h">
+      <Filter>Исходные файлы\Models\ClassMenuItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ClassUser\User.h">
+      <Filter>Исходные файлы\Models\ClassUser</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ClassProvider\Provider.h">
+      <Filter>Исходные файлы\Models\ClassProvider</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ClassProduct\Product.h">
+      <Filter>Исходные файлы\Models\ClassProduct</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ClassWorker\Worker.h">
+      <Filter>Исходные файлы\Models\ClassWorker</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ClassVector\myVector.h">
+      <Filter>Исходные файлы\Models\myVector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CMenu">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAAAAABCgAAAAAAAIAAABCAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClassMenu\CMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenuItem">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="CMenuItem::Function" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\ClassMenuItem\CMenuItem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABQAAgAAAAAAAAAAAAgQAAAAAAAAAAMAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ClassMenuItem\CMenuItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryWorker">
+    <Position X="3.75" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BCAAAAAAACBACAAAAEAAAAAAAIAAAAiAAAAgAABAAAA=</HashCode>
+      <FileName>Models\ClassWorker\Worker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User">
+    <Position X="2.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAABAQAgAAAAEAAAAAAAEAAAABAAgAgAAFAA=</HashCode>
+      <FileName>Models\ClassUser\User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Provider">
+    <Position X="0.5" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BDAAAAAAAiBEAAAAAUAAACAAAAAAAAAAACAgAABAAAA=</HashCode>
+      <FileName>Models\ClassProvider\Provider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BTACACAAQCACAAAAAEAAAAAAACAQAAmAAAAgAABQAAA=</HashCode>
+      <FileName>Models\ClassProduct\Product.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
